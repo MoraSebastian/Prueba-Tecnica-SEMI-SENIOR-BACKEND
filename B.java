@@ -3,7 +3,7 @@ public class Main
 {
 	public static void main(String[] args) {
 	    Scanner sc = new Scanner(System.in);
-		int tamanoProtector = Integer.parseInt(sc.nextLine());
+		int tamanoProtector = Math.abs(Integer.parseInt(sc.nextLine()));
 		int decrementar = tamanoProtector;
 		int acumuladorDiagonal = 0;
 		
